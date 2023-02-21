@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preload stylesheet" as="style" href="./css/bootstrap.min.css">
+    <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload stylesheet" as="style" href="./css/common.css">
+    <link rel="preload stylesheet" as="style" href="./css/about.css">
+    <link rel="shortcut icon" href="./images/fav-ico/favicon.png" type="image/x-icon">
+    <title>Mandola Inverters & Battery House</title>
+</head>
+
+<body onload="preLoaderFunction()">
+
+    <div id="loading"></div>
+
+    <!-- Header Section Start -->
+    <section class="navbar-section">
+        <div class="container desk-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">HARDWARE</a>
+                </div>
+                <div class="desk-nav-tags">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="inverter.html">Inverters</a>
+                    <a class="nav-link" href="batteries.html">Battery</a>
+                    <a class="nav-link active" href="about.html">About Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="special-offer.html">
+                        <img src="./images/SpecialOfferRd.webp" alt="special-ofer_gif" style="width: 75px;">
+                    </a>
+                </div>
+            </header>
+        </div>
+
+        <div class="container mobile-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">HARDWARE</a>
+                </div>
+                <div class="open-close-button">
+                    <button class="btn" onclick="openNav()">☰</button>
+                </div>
+            </header>
+        </div>
+
+    </section>
+
+    <div class="nav-tags" id="navbar-links">
+        <button class="btn" class="close-nav-btn" onclick="closeNav()">x</button>
+        <a href="index.html" onclick="closeNav()">Home</a>
+        <a href="inverter.html" onclick="closeNav()">Inverters</a>
+        <a href="batteries.html" onclick="closeNav()">Battery</a>
+        <a href="about.html" class="active" onclick="closeNav()">About Us</a>
+        <a href="contact.html" onclick="closeNav()">Contact Us</a>
+        <a href="special-offer.html" onclick="closeNav()">
+            <img src="./images/SpecialOfferRd.webp" alt="special-ofer_gif" style="width: 75px;">
+        </a>
+    </div>
+    <!-- Header Section Ends -->
+
+
+    <!-- Banner Section Start -->
+    <section class="banner-section">
+        <div class="container">
+            <!-- <h1  class="inverters">The best inverters for you</h1> -->
+        </div>
+    </section>
+    <!-- Banner Section Ends -->
+
+
+
+    <!-- About content Start -->
+    <section class="abt-section">
+        <div class="container">
+
+            <h1 class="heading">our Strengths and Features</h1>
+
+            <div class="about-content">
+                <div class="img-sec">
+                    <img src="./images/combo-1.jpg" alt="about-image">
+                </div>
+                <div class="about-text">
+                    <h2>
+                        <span> <i class="fa-solid fa-angles-right"></i> </span>
+                        <span>A proven track record of utilization by global companies</span>
+                    </h2>
+                    <p>
+                        It’s no wonder that so many world-leading companies utilize our products. They offer
+                        performance in accordance with the specifications shown in our catalogs, coupled with
+                        enhanced functionality and superior long-term reliability. Our products continue to be
+                        utilized because we constantly seek the highest level of quality in every aspect of our
+                        product development.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="img-sec">
+                    <img src="./images/combo-8.jpg" alt="about-image">
+                </div>
+                <div class="about-text">
+                    <h2>
+                        <span> <i class="fa-solid fa-angles-right"></i> </span>
+                        <span>A proven track record of utilization by global companies</span>
+                    </h2>
+                    <p>
+                        It’s no wonder that so many world-leading companies utilize our products. They offer
+                        performance in accordance with the specifications shown in our catalogs, coupled with
+                        enhanced functionality and superior long-term reliability. Our products continue to be
+                        utilized because we constantly seek the highest level of quality in every aspect of our
+                        product development.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="img-sec">
+                    <img src="./images/combo-8.jpg" alt="about-image">
+                </div>
+                <div class="about-text">
+                    <h2>
+                        <span> <i class="fa-solid fa-angles-right"></i> </span>
+                        <span>A proven track record of utilization by global companies</span>
+                    </h2>
+                    <p>
+                        It’s no wonder that so many world-leading companies utilize our products. They offer
+                        performance in accordance with the specifications shown in our catalogs, coupled with
+                        enhanced functionality and superior long-term reliability. Our products continue to be
+                        utilized because we constantly seek the highest level of quality in every aspect of our
+                        product development.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- About Content Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Why Us Section Start -->
+    <section class="why-us">
+        <div class="container">
+            <h1 class="heading">Why us</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="sub-heading">On Time <span>electric-inverters Delivery</span></h2>
+                    <p>
+                        We deliver all our produsts to your doorstep on time. Please give one chance to give our
+                        service...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Happy <span>clients</span></h2>
+                    <p>
+                        In the past 12 years, we have earned the trust of over 6000 consumers. They all are happy to our
+                        servies...
+                        <span>Happy Clints : Happy Us</span>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Our <span>Support</span></h2>
+                    <p>
+                        Our highly skilled team is available 24 hours a day, seven days a week by phone, chat, and
+                        email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Section Ends -->
+
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Us</h2>
+                    <p>
+                        We are a multi-award-winning electrical & hardware firm that provides best inverter batteries to
+                        you...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="heading">Quick Links</h2>
+                    <p>
+                        <a href="./index.html">Home</a>
+                        <a href="./inverter.html">Inverter</a>
+                        <a href="./batteries.html">Battery</a>
+                        <a href="./about.html">About Us</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="heading">Social Links</h2>
+                    <p>
+                        <a href="#!">Facebook</a>
+                        <a href="#!">Instagram</a>
+                        <a href="#!">Whatsapp</a>
+                        <a href="#!">Mail Us</a>
+                        <a href="#!">Call Us</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends -->
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/header-script.js"></script>
+
+    <script>
+        var preloader = document.getElementById('loading');
+        function preLoaderFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

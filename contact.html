@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preload stylesheet" as="style" href="./css/bootstrap.min.css">
+    <link rel="preload stylesheet" as="style" href="./css/common.css">
+    <link rel="preload stylesheet" as="style" href="./css/contact.css">
+    <link rel="shortcut icon" href="./images/fav-ico/favicon.png" type="image/x-icon">
+    <title>Mandola Inverters & Battery House</title>
+</head>
+
+<body onload="preLoaderFunction()">
+
+    <div id="loading"></div>
+
+
+    <!-- Header Section Start -->
+    <section class="navbar-section">
+        <div class="container desk-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">HARDWARE</a>
+                </div>
+                <div class="desk-nav-tags">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="inverter.html">Inverters</a>
+                    <a class="nav-link" href="batteries.html">Battery</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="special-offer.html">
+                        <img src="./images/SpecialOfferRd.webp" alt="special-ofer_gif" style="width: 75px;">
+                    </a>
+                </div>
+            </header>
+        </div>
+
+        <div class="container mobile-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">HARDWARE</a>
+                </div>
+                <div class="open-close-button">
+                    <button class="btn" onclick="openNav()">☰</button>
+                </div>
+            </header>
+        </div>
+
+    </section>
+
+    <div class="nav-tags" id="navbar-links">
+        <button class="btn" class="close-nav-btn" onclick="closeNav()">x</button>
+        <a href="index.html" onclick="closeNav()">Home</a>
+        <a href="inverter.html" onclick="closeNav()">Inverters</a>
+        <a href="batteries.html" onclick="closeNav()">Battery</a>
+        <a href="about.html" onclick="closeNav()">About Us</a>
+        <a href="contact.html" class="active" onclick="closeNav()">Contact Us</a>
+        <a href="special-offer.html" onclick="closeNav()">
+            <img src="./images/SpecialOfferRd.webp" alt="special-ofer_gif" style="width: 75px;">
+        </a>
+    </div>
+    <!-- Header Section Ends -->
+
+
+
+    <!-- Banner Section Start -->
+    <section class="banner-section">
+        <div class="container">
+            <!-- <h1  class="inverters">The best inverters for you</h1> -->
+        </div>
+    </section>
+    <!-- Banner Section Ends -->
+
+
+    <!-- Contact Us Start -->
+    <section class="contact-us">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="find-us">
+                        <h2>How to Find Us</h2>
+                        <p>
+                            If you have any question, just fill in the contact form and we will answer you shortly. If
+                            you are living nearby come visit at our comfortable office.
+                        </p>
+                    </div>
+                    <div class="office-loc">
+                        <h2>Our Office Location</h2>
+                        <ul>
+                            <li>452, Mandola, Rewari, 123103</li>
+                            <li>City: Rewari</li>
+                            <li>Telephone: 82955XXXXX </li>
+                            <li>E-mail: pankaj@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <h2>Get in Touch</h2>
+
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="" id="" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="" id="" placeholder="Village/Address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="" id="" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="" id="" placeholder="E-mail Address">
+                            </div>
+                            <div class="form-group">
+                                <select name="" id=""  class="form-control">
+                                    <option>Select One</option>
+                                    <option value="">Inverter & Battery</option>
+                                    <option value="">Single Battery</option>
+                                    <option value="">Double Battery</option>
+                                    <option value="">Tubular Battery</option>
+                                    <option value="">Car Battery</option>
+                                    <option value="">Bike Battery</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="" id="" rows="10"
+                                    placeholder="Type Your Valuable Message/Query"></textarea>
+                            </div>
+
+
+                            <button type="submit">Submit</button>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Us Ends -->
+
+
+
+
+    <!-- Why Us Section Start -->
+    <section class="why-us">
+        <div class="container">
+            <h1 class="heading">Why us</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="sub-heading">On Time <span>electric-inverters Delivery</span></h2>
+                    <p>
+                        We deliver all our produsts to your doorstep on time. Please give one chance to give our
+                        service...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Happy <span>clients</span></h2>
+                    <p>
+                        In the past 12 years, we have earned the trust of over 6000 consumers. They all are happy to our
+                        servies...
+                        <span>Happy Clints : Happy Us</span>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Our <span>Support</span></h2>
+                    <p>
+                        Our highly skilled team is available 24 hours a day, seven days a week by phone, chat, and
+                        email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Section Ends -->
+
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Us</h2>
+                    <p>
+                        We are a multi-award-winning electrical & hardware firm that provides best inverter batteries to
+                        you...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="heading">Quick Links</h2>
+                    <p>
+                        <a href="./index.html">Home</a>
+                        <a href="./inverter.html">Inverter</a>
+                        <a href="./batteries.html">Battery</a>
+                        <a href="./about.html">About Us</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="heading">Social Links</h2>
+                    <p>
+                        <a href="#!">Facebook</a>
+                        <a href="#!">Instagram</a>
+                        <a href="#!">Whatsapp</a>
+                        <a href="#!">Mail Us</a>
+                        <a href="#!">Call Us</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends -->
+
+
+
+
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/header-script.js"></script>
+
+    <script>
+        var preloader = document.getElementById('loading');
+        function preLoaderFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>
